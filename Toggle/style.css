@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #111010;
+}
+
+nav {
+    width: 300px;
+    background-color: #242323;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: all ease-in-out 150ms;
+}
+
+#menuToggle {
+    width: 65px;
+    height: 65px;
+    background-color: #47a87b;
+    background-image: url(https://icon-icons.com/icons2/1157/PNG/64/1487086362-cancel_81578.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    cursor: pointer;
+    transition: all ease-in-out 150ms;
+}
+

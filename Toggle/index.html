@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="menuToggle" onclick="menuToggle()"></div>
+	<nav id="menu">
+	</nav>
+	<script>
+        let mudancaToggle = 1
+        function menuToggle(){
+            if(mudancaToggle == 1){
+                document.getElementById("menu").style.left = "-300px"
+                mudancaToggle = 0
+            }
+            else if (mudancaToggle == 0) {
+                document.getElementById("menu").style.left = "0px"
+                mudancaToggle = 1
+            }
+        }
+
+	</script>
+</body>
+</html>
